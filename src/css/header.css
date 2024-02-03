@@ -19,3 +19,11 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+a {
+  font-size: 25px;
+  margin: 25px;
+}
+li {
+  margin-top: 16px;
+}

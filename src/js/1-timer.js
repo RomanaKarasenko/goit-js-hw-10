@@ -1,11 +1,11 @@
 // Описаний в документації
-import flatpickr from "flatpickr";
+import flatpickr from 'flatpickr';
 // Додатковий імпорт стилів
-import "flatpickr/dist/flatpickr.min.css";
+import 'flatpickr/dist/flatpickr.min.css';
 // Описаний у документації
-import iziToast from "izitoast";
+import iziToast from 'izitoast';
 // Додатковий імпорт стилів
-import "izitoast/dist/css/iziToast.min.css";
+import 'izitoast/dist/css/iziToast.min.css';
 
 let selectedUserDate;
 let startBtn = document.querySelector('[data-start]');
@@ -34,7 +34,7 @@ const options = {
       selectedUserDate = undefined;
       startBtn.disabled = true;
       iziToast.error({
-        message: '<i class="fa-regular fa-circle-xmark fa-lg"></i> Please choose a date in the future',
+        message: 'Please choose a date in the future',
         position: 'topLeft',
       });
     }
